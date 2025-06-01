@@ -23,6 +23,8 @@ const Home = () => {
           Click on the markers to discover amazing places around the world
         </p>
       </section>
+
+      <section className="m-15 bg-blue-100 h-100 rounded-lg"></section>
     </main>
   )
 }
