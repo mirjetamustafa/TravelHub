@@ -31,7 +31,7 @@ const Header = () => {
           )}
 
           {burgerBtn && (
-            <div className="bg-white text-gray-600 fixed top-19  z-50 left-0 h-100 w-full  transition delay-150 duration-300 ease-in-out">
+            <div className="bg-white text-gray-600 fixed top-18  z-50 left-0 h-100 w-full  transition delay-150 duration-300 ease-in-out">
               <ul className="flex flex-col p-5">
                 <NavLink
                   to={'/'}
