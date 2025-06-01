@@ -1,4 +1,5 @@
 import React from 'react'
+import Table from './Table'
 
 const Home = () => {
   return (
@@ -10,6 +11,8 @@ const Home = () => {
         <p className="text-center text-xl mt-9 max-md:mx-9">
           Search and book flights, hotels, and tours all in one place
         </p>
+
+        <Table />
       </section>
     </main>
   )
