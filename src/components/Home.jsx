@@ -1,5 +1,6 @@
 import React from 'react'
 import Table from './Table'
+import Map from './Map'
 
 const Home = () => {
   return (
@@ -24,7 +25,9 @@ const Home = () => {
         </p>
       </section>
 
-      <section className="m-15 bg-blue-100 h-100 rounded-lg"></section>
+      <section className="mb-5">
+        <Map />
+      </section>
     </main>
   )
 }

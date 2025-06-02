@@ -94,7 +94,7 @@ const Table = () => {
                       <span className="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400">
                         <MdOutlinePeopleAlt />
                       </span>
-                      <select class="outline outline-gray-300 rounded-md py-2 px-9 w-full appearance-none text-gray-400 placeholder-transparent">
+                      <select className="outline outline-gray-300 rounded-md py-2 px-9 w-full appearance-none text-gray-400 placeholder-transparent">
                         <option>1 Guest</option>
                         <option>2 Guest</option>
                         <option>3 Guest</option>
