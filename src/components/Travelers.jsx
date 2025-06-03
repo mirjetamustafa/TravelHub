@@ -20,13 +20,13 @@ const Travelers = () => {
 
       <div className="grid md:grid-cols-3 grid-cols-1 p-9">
         <div className="bg-white rounded-md shadow-sm p-5 m-3">
-          <div className="flex justify-between">
+          <div className="flex">
             <IoPersonOutline
               size={50}
-              className="bg-gray-100 rounded-full p-2"
+              className="bg-gray-100 rounded-full p-2 mx-2"
             />
-            <h1 className="text-xl font-semibold">Sarah Johnson</h1>
-            <div className="flex">
+            <h1 className="text-xl font-semibold mx-4">Sarah Johnson</h1>
+            <div className="flex mx-2">
               <TiStarFullOutline size={30} className="text-yellow-500" />
               <TiStarFullOutline size={30} className="text-yellow-500" />
               <TiStarFullOutline size={30} className="text-yellow-500" />
@@ -34,7 +34,7 @@ const Travelers = () => {
               <TiStarFullOutline size={30} className="text-yellow-500" />
             </div>
           </div>
-          <div className="pl-24 pr-15">
+          <div className="pl-21 pr-9">
             <p className="text-gray-500 text-sm ">
               Amazing trip to Paris! The hotel booking was seamless and the
               location was perfect.
@@ -53,13 +53,13 @@ const Travelers = () => {
         </div>
 
         <div className="bg-white rounded-md shadow-sm p-5 m-3">
-          <div className="flex justify-between">
+          <div className="flex">
             <IoPersonOutline
               size={50}
-              className="bg-gray-100 rounded-full p-2"
+              className="bg-gray-100 rounded-full p-2 mx-2"
             />
-            <h1 className="text-xl font-semibold">Mike Chen</h1>
-            <div className="flex">
+            <h1 className="text-xl font-semibold mx-4">Mike Chen</h1>
+            <div className="flex mx-2">
               <TiStarFullOutline size={30} className="text-yellow-500" />
               <TiStarFullOutline size={30} className="text-yellow-500" />
               <TiStarFullOutline size={30} className="text-yellow-500" />
@@ -67,7 +67,7 @@ const Travelers = () => {
               <CiStar size={30} className="text-gray-400" />
             </div>
           </div>
-          <div className="pl-28 pr-15">
+          <div className="pl-21 pr-9">
             <p className="text-gray-500 text-sm ">
               Great flight deals and easy booking process. Saved me hundreds on
               my Tokyo trip.
@@ -86,13 +86,13 @@ const Travelers = () => {
         </div>
 
         <div className="bg-white rounded-md shadow-sm p-5 m-3">
-          <div className="flex justify-between">
+          <div className="flex ">
             <IoPersonOutline
               size={50}
-              className="bg-gray-100 rounded-full p-2"
+              className="bg-gray-100 rounded-full p-2 mx-2"
             />
-            <h1 className="text-xl font-semibold">Emma Rodriguez</h1>
-            <div className="flex">
+            <h1 className="text-xl font-semibold mx-4">Emma Rodriguez</h1>
+            <div className="flex mx-2">
               <TiStarFullOutline size={30} className="text-yellow-500" />
               <TiStarFullOutline size={30} className="text-yellow-500" />
               <TiStarFullOutline size={30} className="text-yellow-500" />
@@ -100,7 +100,7 @@ const Travelers = () => {
               <TiStarFullOutline size={30} className="text-yellow-500" />
             </div>
           </div>
-          <div className="pl-24 pr-15">
+          <div className="pl-21 pr-9">
             <p className="text-gray-500 text-sm ">
               Amazing trip to Paris! The hotel booking was seamless and the
               location was perfect.
