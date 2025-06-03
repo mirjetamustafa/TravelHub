@@ -2,6 +2,7 @@ import React from 'react'
 import Table from './Table'
 import Map from './Map'
 import Travelers from './Travelers'
+import { TiStarOutline } from 'react-icons/ti'
 
 const Home = () => {
   return (
@@ -32,6 +33,52 @@ const Home = () => {
 
       <section className="bg-gray-50 w-full mt-15">
         <Travelers />
+      </section>
+
+      <section className="my-15">
+        <h1 className="text-3xl font-bold text-center">
+          Why Choose TravelHub?
+        </h1>
+        <div className="grid justify-items-center md:grid-cols-3 grid-cols-1 mt-15">
+          <div className="ml-10">
+            <TiStarOutline
+              size={50}
+              className=" bg-blue-100 text-blue-600 rounded-full p-2 ml-50 font-bold"
+            />
+            <h1 className="text-xl font-bold mt-4 text-center">Best Prices</h1>
+            <div className="mx-20 mt-3">
+              <p className="text-gray-500 text-center">
+                Compare prices from hundreds of providers to get the best deals
+              </p>
+            </div>
+          </div>
+
+          <div className="ml-10 max-md:mt-9">
+            <TiStarOutline
+              size={50}
+              className=" bg-green-100 text-green-600 rounded-full p-2 ml-50 font-bold"
+            />
+            <h1 className="text-xl font-bold mt-4 text-center">Easy Booking</h1>
+            <div className="mx-20 mt-3">
+              <p className="text-gray-500 text-center">
+                Simple, secure booking process with instant confirmation
+              </p>
+            </div>
+          </div>
+
+          <div className="ml-10 max-md:mt-9">
+            <TiStarOutline
+              size={50}
+              className=" bg-purple-100 text-purple-600 rounded-full p-2 ml-50 font-bold"
+            />
+            <h1 className="text-xl font-bold mt-4 text-center">24/7 Support</h1>
+            <div className="mx-20 mt-3">
+              <p className="text-gray-500 text-center">
+                Get help whenever you need it with our round-the-clock support
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   )
