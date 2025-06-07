@@ -7,9 +7,6 @@ import { FaWifi } from 'react-icons/fa'
 import { PiCarProfileBold } from 'react-icons/pi'
 import { MdOutlineRestaurant } from 'react-icons/md'
 import { LuBuilding } from 'react-icons/lu'
-import hotel1 from '../assets/img1.png'
-import hotel2 from '../assets/img2.png'
-import hotel3 from '../assets/img3.png'
 
 const FindHotels = ({ hotels }) => {
   return (
