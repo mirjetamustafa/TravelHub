@@ -124,7 +124,7 @@ const Tours = () => {
         </div>
       </section>
 
-      <section className="pt-5 bg-gray-50">
+      <section className="pt-5 pb-25 bg-gray-50">
         <FindTours tours={tours} />
       </section>
     </main>

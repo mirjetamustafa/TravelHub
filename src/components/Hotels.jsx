@@ -107,7 +107,7 @@ const Hotels = () => {
         </div>
       </section>
 
-      <section className="pt-9 bg-gray-50">
+      <section className="pt-9 pb-20 bg-gray-50">
         <FindHotels hotels={hotels} />
       </section>
     </main>

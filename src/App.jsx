@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Flights from './components/Flights'
 import Hotels from './components/Hotels'
 import Tours from './components/Tours'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <>
               <Header />
               <Home />
+              <Footer />
             </>
           }
         />
@@ -25,6 +27,7 @@ function App() {
             <>
               <Header />
               <Flights />
+              <Footer />
             </>
           }
         />
@@ -34,6 +37,7 @@ function App() {
             <>
               <Header />
               <Hotels />
+              <Footer />
             </>
           }
         />
@@ -43,6 +47,7 @@ function App() {
             <>
               <Header />
               <Tours />
+              <Footer />
             </>
           }
         />

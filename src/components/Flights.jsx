@@ -117,7 +117,7 @@ const Flights = () => {
         </div>
       </section>
 
-      <section className="p-9 bg-gray-50 ">
+      <section className="px-9 pt-9 pb-20 bg-gray-50 ">
         <SkyFlights flights={flights} />
       </section>
     </main>

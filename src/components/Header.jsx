@@ -10,7 +10,7 @@ import { MdClose } from 'react-icons/md'
 const Header = () => {
   const [burgerBtn, setBurgerBtn] = useState(false)
   return (
-    <header className="flex justify-between p-5 shadow-md">
+    <header className="flex justify-between p-5 shadow-md sticky bg-white top-0">
       <Link to={'/'} className="flex">
         <img src={logo} alt="logo" />
         <span className="text-2xl font-bold mx-2">TravelHub</span>
